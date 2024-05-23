@@ -21,14 +21,12 @@ i{
     padding-right: 2vw;
 }
 #nav1{
-    background-color: aqua;
     width: 100%;
     height: 60px;
     display: flex;
     justify-content: space-between;
 }
 #nav2{
-    background-color: burlywood;
     width: 100%;
     height: 40px;
     display: flex;
@@ -47,22 +45,20 @@ i{
 #text_content{
     width: 100%;
     height:45%;
-    background-color: aquamarine;
     display: flex;
     flex-wrap: nowrap;
     overflow-x: auto;
 }
 #text_content::-webkit-scrollbar{
     background-color: transparent;
-    height: 7px;
+    height: 8px;
 }
 #text_content::-webkit-scrollbar-thumb{
-    background-color: red;
+    background-color: rgb(170, 52, 72);
 }
 #image_content{
     width: 100%;
     height: 55%;
-    background-color: black;
 }
 .elem{
     height:100%;
@@ -80,6 +76,8 @@ i{
 #image_content img{
     width: 100%;
     height: 100%;
-    background-color: black;
     object-fit: cover;
+}
+h3:hover{
+    text-decoration: underline;
 }
